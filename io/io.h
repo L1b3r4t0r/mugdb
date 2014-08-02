@@ -1,7 +1,4 @@
-//
-//dll header file
-//just a dll to learn from
-//
+//this is the input output simplified interface dll
 #include <iostream>
 #include <fstream>
 #include <string>

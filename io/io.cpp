@@ -16,4 +16,17 @@ namespace io{
 			return false;
 		}
 	}
+	string wr::read(string filename){
+		ifstream iop(filename);
+		if (iop.is_open()){
+			string content;
+			iop >> content;
+			iop.close();
+			return content;
+		}
+		else
+		{
+			return false;
+		}
+	}
 }

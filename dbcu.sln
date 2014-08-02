@@ -7,6 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "io", "io\io.vcxproj", "{292
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dbcu", "dbcu\dbcu.vcxproj", "{CA64CCD3-B095-41C8-9B79-B3136A84397F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mugdbcli", "mugdbcli\mugdbcli.vcxproj", "{F419CF1F-8E13-4661-AFBB-66596BE812E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA64CCD3-B095-41C8-9B79-B3136A84397F} = {CA64CCD3-B095-41C8-9B79-B3136A84397F}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +26,10 @@ Global
 		{CA64CCD3-B095-41C8-9B79-B3136A84397F}.Debug|Win32.Build.0 = Debug|Win32
 		{CA64CCD3-B095-41C8-9B79-B3136A84397F}.Release|Win32.ActiveCfg = Release|Win32
 		{CA64CCD3-B095-41C8-9B79-B3136A84397F}.Release|Win32.Build.0 = Release|Win32
+		{F419CF1F-8E13-4661-AFBB-66596BE812E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F419CF1F-8E13-4661-AFBB-66596BE812E1}.Debug|Win32.Build.0 = Debug|Win32
+		{F419CF1F-8E13-4661-AFBB-66596BE812E1}.Release|Win32.ActiveCfg = Release|Win32
+		{F419CF1F-8E13-4661-AFBB-66596BE812E1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
