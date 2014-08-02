@@ -9,6 +9,13 @@ using namespace std;
 using namespace io;
 int _tmain(int argc, _TCHAR* argv[])
 {
-	return 0;
+	string line;
+	while (getline(cin, line))
+	{
+		istringstream command(line);
+		string cmd;
+		command >> cmd;
+
+	}
 }
 
