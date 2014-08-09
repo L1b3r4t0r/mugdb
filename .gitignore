@@ -180,3 +180,12 @@ DerivedData
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
 # Pods/
+cpc/cpc.vcxproj
+*.filters
+*.vcxproj
+*.vcxproj
+*.vcxproj
+mugdbcli/mugdbcli.vcxproj
+io/io.vcxproj
+dbcu/dbcu.vcxproj
+mugdbcli/mugdbcli.vcxproj
