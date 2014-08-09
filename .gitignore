@@ -183,9 +183,4 @@ DerivedData
 cpc/cpc.vcxproj
 *.filters
 *.vcxproj
-*.vcxproj
-*.vcxproj
-mugdbcli/mugdbcli.vcxproj
-io/io.vcxproj
-dbcu/dbcu.vcxproj
-mugdbcli/mugdbcli.vcxproj
+*.sln
