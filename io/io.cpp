@@ -1,10 +1,6 @@
 #include "io.h"
-#include <iostream>
-#include <fstream>
-#include <string>
-using namespace std;
-namespace io{
-	bool wr::save(string filename, string content){
+namespace mug{
+	bool io::save(string filename, string content){
 		ofstream iop(filename);
 		if (iop.is_open()){
 			iop << content;
@@ -16,13 +12,18 @@ namespace io{
 			return false;
 		}
 	}
-	string wr::read(string filename){
+	string io::read(string filename){
 		ifstream iop(filename);
 		if (iop.is_open()){
+			string line;
 			string content;
-			iop >> content;
-			iop.close();
 			return content;
+			while (iop.good())
+			{
+				iop >> content;
+			}
+			return content;
+			iop.close();
 		}
 		else
 		{
